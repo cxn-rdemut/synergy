@@ -1,35 +1,47 @@
-{  
-  "displayName":"Navigator",
-  "address":"http://localhost:8080/",
-  "identities":[  
-    {  
-      "category":"application",
-      "type":"data-analysis"
+{
+  "displayName": "Navigator",
+  "address": "http://localhost:8080/",
+  "identities": [
+    {
+      "category": "application",
+      "type": "webapp"
+    },
+    {
+      "category": "group",
+      "type": "search"
+    },
+    {
+      "category": "vendor",
+      "type": "chemaxon"
+    },
+    {
+      "category": "product",
+      "type": "navigator"
     }
   ],
-  "features":[  
-    {  
-      "namespace":"synergy/app-info",
-      "attributes":{  
-        "url":"http://localhost:8080/rest/app-info"
+  "features": [
+    {
+      "namespace": "synergy/app-info",
+      "attributes": {
+        "url": "http://localhost:8080/rest/app-info"
       }
     },
-    {  
-      "namespace":"synergy/health",
-      "attributes":{  
-        "url":"http://localhost:8080/rest/health"
+    {
+      "namespace": "synergy/health",
+      "attributes": {
+        "url": "http://localhost:8080/rest/health"
       }
     },
-    {  
-      "namespace":"synergy/icon",
-      "attributes":{  
-        "url":"https://www.gravatar.com/avatar/v?s=64&d=identicon"
+    {
+      "namespace": "synergy/icon",
+      "attributes": {
+        "url": "https://www.gravatar.com/avatar/v?s=64&d=identicon"
       }
     },
-    {  
-      "namespace":"synergy/logout",
-      "attributes":{  
-        "url":"http://localhost:8080/front-channel-logout"
+    {
+      "namespace": "synergy/logout",
+      "attributes": {
+        "url": "http://localhost:8080/front-channel-logout"
       }
     }
   ]
